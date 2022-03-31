@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>---Guess Number Game----</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <h1>GUESS THE NUMBER ! 🎰</h1>
+        <p>Between 1 to 20 🔢</p>
+        <button type="button" class="reset">Reset</button>
+      </div>
+      <!-- flex Container that holds flex items -->
+
+      <div class="randomnum">
+        <p class="qmark">?</p>
+      </div>
+
+      <div class="leftSide">
+        <p class="status">ENTER A NUMBER</p>
+        <br />
+        <input type="number" class="numberEntry" />
+        <button type="button" class="checkButton">CHECK HERE</button>
+      </div>
+
+      <div class="rightSide">
+        <p class="score-area">SCORE : <span class="score">10</span></p>
+        <p class="highScore-area">
+          HIGH-SCORE :<span class="highScore">0</span>
+        </p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
